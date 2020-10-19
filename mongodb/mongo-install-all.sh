@@ -3,5 +3,5 @@ microk8s kubectl apply -f https://raw.githubusercontent.com/helloezmeral/yaml_in
 microk8s kubectl apply -f https://raw.githubusercontent.com/helloezmeral/yaml_info/main/mongodb/mongo.yaml
 microk8s kubectl apply -f https://raw.githubusercontent.com/helloezmeral/yaml_info/main/mongodb/mongo-express.yaml
 
-echo "install complete"
-echo "microk8s kubectl get all --watch"
+echo "==============install complete=================="
+microk8s kubectl get service --watch
